@@ -163,7 +163,6 @@ function Focus-Window {
     )
 
     $Handle = Find-WindowHandle $Query
-    Write-Host 'doing stuff'
 
     [FocusWindowHelpers]::BringToFront($Handle)
 }
